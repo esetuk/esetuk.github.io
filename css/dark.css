@@ -1,0 +1,124 @@
+* {
+    border-radius: 5px;
+    font: 18px "Trebuchet MS";
+	color: #ffffff;
+    padding: 5px;
+    margin: 5px;
+}
+body {
+    background-color: black;
+}
+#main {
+    width: 800px;
+    margin: auto;
+    background-color: rgb(37, 37, 37);
+    border: 1px solid rgb(90, 89, 89);
+}
+ul {
+    list-style-position: inside;
+    padding: 10px;
+    margin: 0;
+ }
+ li {
+    padding: 0;
+    margin: 0;
+ }
+a:link, a:visited, a:active {
+    color: orange;
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(0, 153, 255);
+}
+#buttons {
+    text-align: right;
+}
+button {
+    transition-duration: 0.2s;
+    background-color: transparent;
+    height: 35px;
+    border: 1px solid white;
+    width: 30%;
+    color: white;
+    line-height: 20px;
+    display: inline-block;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+button:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+button:disabled {
+    color : #000000;
+    border: 1px solid black;
+}
+button:active {
+    transform: translateY(2px);
+}
+input, select {
+    background-color: transparent;
+    border: 1px solid rgb(90, 89, 89);
+}                      
+input {
+    width: 50%;
+}
+input:focus {
+    outline: none;
+}              
+.labels {
+    display: inline-block;
+    width: 40%;
+    text-align: right;
+}
+#heading {
+    width: auto;
+    text-align: left;
+}
+.optional {
+    margin: 0;
+    padding: 0;
+}
+#mirror, #repository, #global, #command, #filters {
+    border: 1px solid rgb(90, 89, 89);
+    border-style: solid;
+    height: auto;
+    padding: 5px;
+}
+#enableMirror, #enableRepository, #enableGlobal, #enableOptional {
+    text-align: right;
+    width: auto;
+}
+#trustDownloadedFilesInRepositoryTemp, #mirrorOnlyLevelUpdates {
+    width: auto;
+}
+#languages {
+    width: 100px;
+}
+#outputWindows, #outputLinux {
+    width: auto;
+    text-align: right;
+}
+textarea {
+    font: 18px "Lucida Console";
+    color: orange;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+    outline: none;
+    border: 1px solid orange;
+    height: auto;
+}
+.platforms {
+    width: auto;
+}
+#info {
+    text-align: left;
+    background-color: transparent;
+    display: block;
+    border: 1px solid rgb(90, 89, 89);
+}
+#saveButton {
+    display: none;
+}
